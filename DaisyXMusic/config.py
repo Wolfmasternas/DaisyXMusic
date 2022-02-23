@@ -1,5 +1,7 @@
 from os import getenv
 
+py -m pip install # sit module in cmd
+
 que = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
 BOT_TOKEN = getenv("BOT_TOKEN")
